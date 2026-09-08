@@ -16,11 +16,6 @@
   transition: all var(--transition-normal);
 }
 
-.brand-logo {
-  height: 32px;
-  width: auto;
-}
-
 .header-content {
   display: flex;
   align-items: center;
@@ -47,6 +42,13 @@
 
 .brand-text {
   color: var(--text-primary);
+}
+
+.brand-logo {
+  height: 32px;
+  width: auto;
+  max-width: none;
+  display: block;
 }
 
 /* Navigation */
