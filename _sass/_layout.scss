@@ -23,9 +23,21 @@
   height: 100%;
 }
 
-.site-brand {
+.site-brand,
+.site-nav,
+.header-actions,
+.nav-list,
+.nav-item {
   display: flex;
   align-items: center;
+  height: 100%;
+}
+
+.brand-link,
+a.nav-link {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
 }
 
 .brand-link {
