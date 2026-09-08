@@ -16,6 +16,11 @@
   transition: all var(--transition-normal);
 }
 
+.brand-logo {
+  height: 32px;
+  width: auto;
+}
+
 .header-content {
   display: flex;
   align-items: center;
