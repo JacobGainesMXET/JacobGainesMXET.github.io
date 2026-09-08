@@ -246,51 +246,74 @@ a.nav-link.active::after {
   position: absolute;
   font-size: 0.75rem;
   font-weight: 700;
+  letter-spacing: normal;
   color: #ffd700;
   background-color: var(--surface-color);
   border: 1px solid #ffd700;
-  border-radius: var(--radius-full);
+  border-radius: 50%;
   width: 20px;
   height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   line-height: 1;
   padding: 0;
   cursor: pointer;
-  transition: all var(--transition-fast);
-  overflow: hidden;
-  white-space: nowrap;
-  z-index: 2;
+  z-index: 5;
   -webkit-text-fill-color: initial;
+  overflow: visible;
 }
 
-.corner-letter:hover {
-  width: auto;
-  padding: 2px 10px;
-  border-radius: var(--radius-md);
+.corner-letter::before,
+.corner-letter::after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
   background-color: #ffd700;
   color: #1a1a1a;
-  border-color: #ffd700;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: normal;
+  border-radius: var(--radius-md);
+  opacity: 0;
+  max-width: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: all var(--transition-fast);
+  pointer-events: none;
 }
 
-/* Left-side bubbles: reverse internal order so text expands leftward */
-.corner-tl,
-.corner-bl {
-  flex-direction: row-reverse;
-}
-
-.corner-tl:hover::after,
-.corner-bl:hover::after {
+/* Right-side bubbles expand rightward */
+.corner-tr::after,
+.corner-br::after {
   content: attr(data-full);
-  margin-right: 4px;
+  left: 100%;
+  margin-left: 4px;
 }
 
-/* Right-side bubbles: normal order, text expands rightward (unchanged) */
 .corner-tr:hover::after,
 .corner-br:hover::after {
+  opacity: 1;
+  max-width: 150px;
+  padding: 2px 10px;
+}
+
+/* Left-side bubbles expand leftward */
+.corner-tl::before,
+.corner-bl::before {
   content: attr(data-full);
-  margin-left: 4px;
+  right: 100%;
+  margin-right: 4px;
+  text-align: right;
+}
+
+.corner-tl:hover::before,
+.corner-bl:hover::before {
+  opacity: 1;
+  max-width: 150px;
+  padding: 2px 10px;
 }
 
 .corner-tl { top: 0; left: 0; }
