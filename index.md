@@ -11,7 +11,7 @@ layout: default
         </div>
         <div class="hero-text">
            <h1 class="hero-name">{{ site.author | default: "Your Name" }}</h1>
-           <p class="hero-title">Robotics & Mechatronics</p>
+           <p class="hero-title">Currently working to add all my projects into this portfolio!</p>
         </div>
         
         <div class="hero-actions">
