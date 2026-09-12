@@ -26,12 +26,11 @@ permalink: /about/
             <p>Connect with me on the following platforms:</p>
         
             <div class="cta-buttons">
-                </a>
                 <a href="mailto:jacobgintx@gmail.com" class="btn-primary">
                     <i class="fas fa-envelope"></i> Email
                 </a>
-                <a href="www.linkedin.com/in/jacob-gaines-b57405341" class="btn-linkedin" target="_blank">
-                    <i class="fas fa-linkedin"></i> LinkedIn
+                <a href="https://www.linkedin.com/in/jacob-gaines-b57405341" class="btn-primary" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
                 </a>
                 <a href="https://github.com/JacobGainesMXET" class="btn-primary" target="_blank">
                     <i class="fab fa-github"></i> GitHub
