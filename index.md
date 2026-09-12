@@ -6,6 +6,9 @@ layout: default
   <div class="container">
     <div class="hero-content">
       <div class="hero-info-wrapper">
+        <div class="hero-photo">
+          <img src="/assets/images/Jacob_Gaines_Headshot_ATM.png" alt="Jacob Gaines">
+        </div>
         <div class="hero-text">
            <h1 class="hero-name">{{ site.author | default: "Your Name" }}</h1>
            <p class="hero-title">Robotics & Mechatronics</p>
