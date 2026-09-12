@@ -8,6 +8,7 @@ featured_image: "/assets/images/projects/iot-monitor/sensor-monitoring.gif"
 github_url: "https://github.com/aojedao/iot-environmental-monitor"
 demo_url: "#"
 interactive_plot: true
+published: false
 
 models:
   - file: "/assets/models/iot-monitor/sensor-housing.gltf"
