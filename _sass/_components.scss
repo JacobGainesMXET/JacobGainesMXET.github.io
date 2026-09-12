@@ -914,13 +914,16 @@
   animation-play-state: running;
 }
 
-.btn-primary:hover,
-.btn-secondary:hover,
-.btn-outline:hover,
-.btn-demo:hover,
-.btn-linkedin:hover,
-a[style*="background-color: white"]:hover,
-a[style*="background-color: #fff"]:hover,
-a[style*="background-color: #ffffff"]:hover {
+a.btn-primary:hover,
+a.btn-secondary:hover,
+a.btn-outline:hover,
+a.btn-demo:hover,
+a.btn-github:hover,
+a.btn-linkedin:hover,
+a.btn-primary-large:hover,
+a.project-link:hover,
+a.project-link-overlay:hover,
+a.nav-link.all-projects:hover,
+a[class*="btn-"]:hover {
   color: black !important;
 }
