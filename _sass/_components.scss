@@ -769,11 +769,10 @@
   transition: all var(--transition-fast);
 }
 
-.filter-btn:hover,
-.filter-btn.active {
-  background-color: var(--primary-color);
+.filter-btn:hover, .filter-btn.active {
+  background-color: #1565c0;
   color: white;
-  border-color: var(--primary-color);
+  border-color: #1565c0;
 }
 
 /* No Projects State */
