@@ -7,6 +7,7 @@ categories: [Robotics, Arduino, Mechatronics]
 featured_image: "/assets/images/projects/line-robot/featured.jpg"
 github_url: "https://github.com/aojedao/line-following-robot"
 demo_url: "#"
+published: false
 
 # 3D Models - Support for STL, OBJ, GLTF, GLB formats
 models:
