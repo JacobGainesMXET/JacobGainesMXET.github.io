@@ -4,7 +4,7 @@ title: "Robotic Hand"
 description: "Cost effective bionic hand and forearm, with self designed 4 bar pivot finger mechanism"
 date: Nov 2025 - March 2026
 categories: [Robotics, Motor Control, CAD Design, 3D Printing]
-featured_image: "/assets/images/roboticarm.png"
+featured_image: "/assets/images/coloredfinalfinger.png"
 github_url: "https://github.com/JacobGainesMXET"
 demo_url: "#"
 interactive_plot: true
@@ -22,6 +22,12 @@ schematics:
     description: "Original sketch of the four bar mechanism"
   - file: "/assets/images/microservosketch.png"
     description: "Sketch and dimensions of the micro servo motor used for the finger movement"
+  - file: "/assets/images/finger and hand.png"
+    description: "CAD models of the finger and hand"
+  - file: "/assets/images/coloredfinalfinger.png"
+    description: "CAD Finger mechanism with colored components"
+  - file: "/assets/images/microservomodel.png"
+    description: "CAD model of the micro servo motor used  for the finger movement"
 
 code_files:
   - name: "Inverse Kinematics of fingers"
