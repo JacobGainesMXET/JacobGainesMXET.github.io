@@ -7,7 +7,7 @@ categories: [Robotics, Motor Control, CAD Design, 3D Printing]
 featured_image: "/assets/images/coloredfinalfinger.png"
 github_url: "https://github.com/JacobGainesMXET"
 demo_url: "#"
-interactive_plot: true
+interactive_plot: false
 
 models:
   - file: "/assets/images/finger and hand.png"
