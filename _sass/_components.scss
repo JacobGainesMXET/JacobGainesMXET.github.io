@@ -61,6 +61,15 @@
   background-color: #1a1e22;
 }
 
+.btn-linkedin {
+    background-color: #0a66c2;
+    color: white;
+}
+
+.btn-linkedin:hover {
+    background-color: #084e96;
+}
+
 .btn-demo {
   background-color: var(--primary-color);
   color: #ffffff;
@@ -903,4 +912,15 @@
 .fade-in.animate,
 .slide-up.animate {
   animation-play-state: running;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-outline:hover,
+.btn-demo:hover,
+.btn-linkedin:hover,
+a[style*="background-color: white"]:hover,
+a[style*="background-color: #fff"]:hover,
+a[style*="background-color: #ffffff"]:hover {
+  color: black !important;
 }
