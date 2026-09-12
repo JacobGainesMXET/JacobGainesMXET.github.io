@@ -1,13 +1,12 @@
 # Site settings
-title: "MESGRO - Robotics & Mechatronics Portfolio"
-description: "An open-source template for showcasing robotics and mechatronics projects with 3D models, schematics, and code"
+title: "Jacob's Mechatronics"
+description: "My project portfolio to showcase more indepth my engineering projects and expertise"
 url: "https://jacobgainesmxet.github.io"
 baseurl: ""
 author: "Jacob Gaines"
-email: "jacob.gaines@example.com"
+email: "jacobgintx@gmail.com"
 github_username: "jacobgainesmxet"
-linkedin_username: "jacobgaines"
-twitter_username: "jacobgaines"
+linkedin_username: "Jacob Gaines"
 
 # Build settings
 markdown: kramdown
@@ -56,24 +55,6 @@ navigation:
     url: "/projects/"
   - title: "About"
     url: "/about/"
-
-# Project categories
-project_categories:
-  - name: "Robotics"
-    slug: "robotics"
-    description: "Autonomous robots and robotic systems"
-  - name: "Mechatronics"
-    slug: "mechatronics"
-    description: "Integration of mechanical, electrical, and software systems"
-  - name: "Arduino"
-    slug: "arduino"
-    description: "Arduino-based projects and prototypes"
-  - name: "3D Printing"
-    slug: "3d-printing"
-    description: "Custom 3D printed components and designs"
-  - name: "IoT"
-    slug: "iot"
-    description: "Internet of Things devices and applications"
 
 # 3D Model settings
 models:
