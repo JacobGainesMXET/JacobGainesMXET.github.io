@@ -75,10 +75,12 @@
   }
 
   .hero-info-wrapper {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: var(--spacing-lg);
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  
+  .hero-photo, .hero-info, .hero-actions {
+    justify-self: center;
   }
 
   .hero-text {
