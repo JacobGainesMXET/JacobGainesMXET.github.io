@@ -1,9 +1,9 @@
 ---
 layout: project
-title: "6-DOF Robotic Arm with Vision System"
-description: "An advanced 6-degree-of-freedom robotic arm with computer vision capabilities for object detection, picking, and precise placement tasks."
-date: 2024-09-20
-categories: [Robotics, Computer Vision, Machine Learning, 3D Printing]
+title: "Robotic Hand"
+description: "Cost effective bionic hand and forearm, with self designed 4 bar pivot finger mechanism"
+date: Nov 2025 - March 2026
+categories: [Robotics, Motor Control, CAD Design, 3D Printing]
 featured_image: "/assets/images/projects/robotic-arm/featured.jpg"
 github_url: "https://github.com/aojedao/6dof-robotic-arm"
 demo_url: "#"
